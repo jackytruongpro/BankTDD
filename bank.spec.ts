@@ -76,9 +76,12 @@ describe('Bank', () => {
     expect(account.beneficiaries).toContain("Bénéficiaire 1");
   });
 
-  // it("should convert the amount to the account currency", () => {
-  //   let newBank = new Bank();
-  //   expect(newBank.convertCurrency(100, "EUR", "USD")).toEqual(105.40);
-  // });
+  it("Convertir une somme d'une devise à une autre ", () => {
+    let newBank = new Bank();
+
+    expect(newBank.convertCurrency(100, "EUR", "USD")).toEqual(105.40);
+    expect(newBank.convertCurrency(100, "USD", "EUR")).toEqual(95);
+    expect(newBank.convertCurrency(100, "EUR", "EUR")).toEqual(100);
+  });
 
 });

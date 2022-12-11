@@ -13,7 +13,6 @@ export class Bank {
     this.beneficiaries = [];
   }
 
-
   // méthode pour obtenir le solde actuel de la banque
   getBalance(): number {
     return this.balance;
@@ -68,17 +67,17 @@ export class Bank {
     this.beneficiaries.push(beneficiaryAccountNumber);
   }
 
-  // convertCurrency(amount: number, fromCurrency: string, toCurrency: string): number {
-  //   if(fromCurrency == "USD" && toCurrency == "EUR"){
-  //     amount * 0.95;
-  //   } else if(fromCurrency == "EUR" && toCurrency == "USD") {
-  //     amount * 1.05;
-  //   } else if (fromCurrency == toCurrency) {
-  //     amount = amount;
-  //   }
-  //   return amount
-
-  // }
+  // méthode pour convertir une somme EUR(€) <=> USD($)
+  convertCurrency(amount: number, fromCurrency: string, toCurrency: string): number {
+    if(fromCurrency == "USD" && toCurrency == "EUR"){
+      amount *= 0.95;
+    } else if(fromCurrency == "EUR" && toCurrency == "USD") {
+      amount *= 1.054;
+    } else if (fromCurrency == toCurrency) {
+      amount = amount;
+    }
+    return amount
+  }
 
 }
 
