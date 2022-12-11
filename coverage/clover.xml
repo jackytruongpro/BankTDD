@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1670783261311" clover="3.2.0">
+  <project timestamp="1670783261311" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11" elements="31" coveredelements="31" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+    <file name="bank.ts" path="/Users/jackytruong/Documents/projets/BankTest/bank.ts">
+      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="9" count="16" type="stmt"/>
+      <line num="10" count="16" type="stmt"/>
+      <line num="11" count="16" type="stmt"/>
+      <line num="12" count="16" type="stmt"/>
+      <line num="13" count="16" type="stmt"/>
+      <line num="19" count="6" type="stmt"/>
+      <line num="24" count="7" type="stmt"/>
+      <line num="25" count="7" type="stmt"/>
+      <line num="30" count="4" type="stmt"/>
+      <line num="31" count="4" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="53" count="2" type="stmt"/>
+      <line num="58" count="1" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="68" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
